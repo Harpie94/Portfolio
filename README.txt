@@ -1,3 +1,14 @@
+
+*Who's there?*
+
+Oh hello, it seems you found the source code of the portfolio!
+If you want my real portfolio, you'll need to go there: https://harpie94.github.io/portfolio/
+
+
+
+
+Template stuff:
+
 Stellar by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
