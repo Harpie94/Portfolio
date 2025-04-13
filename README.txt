@@ -2,7 +2,7 @@
 *Who's there?*
 
 Oh hello, it seems you found the source code of the portfolio!
-If you want my real portfolio, you'll need to go there: https://harpie94.github.io/portfolio/
+If you want my real portfolio, you'll need to go there: https://harpie94.github.io/Portfolio/
 
 
 
