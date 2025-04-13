@@ -120,8 +120,8 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #730a28;
-		color: rgba(151, 14, 46, 0.65);
+		background-color: #be77ca;
+		color: rgba(239, 239, 239, 0.65);
 	}
 
 	body, input, select, textarea {
@@ -203,7 +203,7 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
-		letter-spacing: 0.5em;
+		letter-spacing: 0.1em;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2642,6 +2642,7 @@ input, select, textarea {
 		ul.icons li {
 			display: inline-block;
 			padding: 0 0.65em 0 0;
+			gap: 50em;
 		}
 
 			ul.icons li:last-child {
@@ -2800,79 +2801,82 @@ header.CategoryTitle h2:after {
 }
 /* Body text*/
 
-div.CategoryBody {
+div.GameText {
 	margin-bottom: 3em;
 }
 
-div.CategoryBody h4 {
+div.GameText p {
 	font-size: 1.5em;
 }
 
-div.CategoryBody h4:after {
-	display: block;
-	content: '';
-	width: 3.25em;
-	height: 2px;
-	margin: 0.7em 0 1em 0;
-	border-radius: 2px;
-}
+div.GameText p:after {
+	 display: block;
+	 content: '';
+	 width: 3.25em;
+	 height: 2px;
+	 margin: 0.7em 0 1em 0;
+	 border-radius: 2px;
+
+ }
 
 
-section.special div.CategoryBody h4:after, article.special div.CategoryBody h4:after {
+
+section.special div.GameText p:after, article.special div.GameText p:after {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 
 
-div.CategoryBody p {
+div.GameText p {
 	font-size: 1.25em;
 	letter-spacing: -0.025em;
 }
 
-div.CategoryBody.special {
+div.GameText.special {
 	text-align: center;
 }
 
 
 
-div.CategoryBody.special h4:after {
+div.GameText.special p:after {
 	margin-left: auto;
 	margin-right: auto;
 }
 
 
 
-footer.CategoryBody {
+footer.GameText {
 	margin-top: 3em;
+	
 }
 
 @media screen and (max-width: 736px) {
 
-	div.CategoryBody {
+	div.GameText {
 		margin-bottom: 0;
 	}
 
-	div.CategoryBody h4 {
+	div.GameText h4 {
 		font-size: 1.5em;
 	}
 
-	div.CategoryBody p {
+	div.GameText p {
 		font-size: 1em;
 		letter-spacing: 0;
 	}
 
-	div.CategoryBody p br {
+	div.GameText p br {
 		display: none;
 	}
 
-	footer.CategoryTitle {
+	footer.GameText {
 		margin-top: 0;
 	}
 
 }
 
-div.CategoryBody h4:after {
+div.GameText p:after {
 	background-color: rgb(255, 255, 255);
 }
 
@@ -3732,7 +3736,7 @@ div.CategoryBody h4:after {
 		background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 	}
 	
-#main div.CategoryBody h4:after {
+#main div.GameText p:after {
 	background-color: #dddddd;
 	background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
 	background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
@@ -4278,4 +4282,12 @@ Styling
 	}
 	
 	
+}
+.Devs{
+	display: block;
+}
+.ButtonGame{
+	display: flex;
+	list-style: none;
+	gap: 40px;
 }
